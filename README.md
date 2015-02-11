@@ -1,60 +1,48 @@
-## What is Gulp?
+#Movable
 
-Gulp is a build system. That is, it is a tool that is used to take a bunch of resources (such as HTML, JavaScript, CSS files, etc), perform some processing on them, and get them prepped for production.
+## Assignment
 
-## What does this project do?
+Make a project called: "movable"
 
-Lots. But for now, we'll use it to compile any content it finds in the src directory, move it to the dest directory, and serve it from there.
+Make an editable "powerpoint" slide.
 
-Primarily, right now, you'll be using this so you can get access to SCSS.
+Woah! Sound crazy? Here's what I mean.
 
-## How do you use it?
+Create a page like our move pages from here:
 
-### First, make an empty clone of this repo:
+https://github.com/tiy-durham-fe-2015/wk5/tree/master/src
 
-1. Pull it down (run this in Terminal):
+It should look something like this:
 
-    git clone git@github.com:tiy-durham-fe-2015/gulp-lite.git
+![Power Point](https://github.com/tiy-durham-fe-2015/curriculum/raw/master/img/powerpoint.png)
 
-2. Rename the gulp-lite directory to whatever your project name will be
+I should be able to click the text or image and move them around.
 
-    mv gulp-lite my-project-name
+You should prevent me from dragging the items outside of the bounds of the powerpoint rectangle.
 
-3. cd into the new directory
+### Hard Mode
 
-    cd my-project-name
-    rm -rf .git
-    git init
-    git add .
-    git commit -m "Initial checkin"
+Allow resize of element(s)
 
-### Next install dependencies
+Create a toolbar that allows me to add more elements to the page
 
-Next, you'll need to make sure that gulp and all it's dependencies are installed. From the terminal:
+### Nightmare Mode
 
-    npm install
+Make the element(s) text or images instead of just placeholders
 
-Note, if this errors, you may need to install Node. You can do that here: http://nodejs.org/download/
+When I click the text, show a dialog (or something) that lets me edit the text.
+
+When I click the image, show a dialog (or something) that lets me edit the image URL.
+
+Allow rotating of element(s)
+
+Figure out how to enable users to resize elements (not just move them)
+
+Use localstorage to remember the changes a user makes to a slide
+
+Add/remove slides
 
 
-### Finally, run gulp
+####update:
 
-It's pretty simple. In the Terminal, in your project directory, run:
-
-    gulp
-
-If all works as expected, you should see something like this in your terminal:
-
-    [20:16:52] Using gulpfile ~/src/my-proj/gulpfile.js
-    [20:16:52] Starting 'watch'...
-    [20:16:52] Finished 'watch' after 6.62 ms
-    [20:16:52] Starting 'default'...
-    [20:16:52] Finished 'default' after 14 ms
-    [20:16:52] Server started http://localhost:8000
-    [20:16:52] LiveReload started on port 35729
-
-So, you should be able to go here in Chrome:
-
-http://localhost:8000
-
-Now, when you edit and save index.html, or the css files, etc, chrome should automatically refresh. Purty cewl.
+Didn't finish any styling but it's functional outside of the right/bottom boundaries of the .movable-wrapper.
