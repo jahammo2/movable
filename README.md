@@ -3,8 +3,11 @@
 ### Technologies Used:
 
 -gulp
+
 -jquery
+
 -js
+
 -scss
 
 ### Assignment
