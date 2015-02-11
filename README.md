@@ -1,6 +1,13 @@
 #Movable
 
-## Assignment
+### Technologies Used:
+
+-gulp
+-jquery
+-js
+-scss
+
+### Assignment
 
 Make a project called: "movable"
 
