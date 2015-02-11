@@ -1,2 +1,91 @@
+/*************************************************************
+***** BODY, IMPORTS, GENERAL, AND RESET *********
+*************************************************************/
+
 @import 'reset';
 @import 'defaults';
+/*@import "bourbon";
+@import "neat";*/
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'helvetica';
+}
+
+/******************** comment *******************************/
+
+h1 {
+	border: 1px solid;
+}
+
+.wrapper {
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+	background: lightblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.reorderable-list-item {
+	border: 1px solid;
+	width: 90%;
+	height: 25%;
+	margin: 5% auto 0;
+}
+
+.first-slide {
+	background: lightyellow;
+}
+
+.second-slide {
+	background: lightgreen;
+}
+
+.third-slide {
+	background: lightgray;
+}
+
+.slides {
+	padding: 1%;
+	margin-left: 5%;
+	height: 80%;
+	width: 30%;
+	background: lightpink;
+}
+
+.movable-wrapper {
+	padding: 7px;
+	border: 1px solid;
+	height: 80%;
+	width: 50%;
+	background: white;
+	margin-right: 5%;
+}
+
+.draggable-item {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background: purple;
+	box-shadow: 0 0 2px 1px black;
+}
+
+.script-p {
+	margin: 49% auto 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
