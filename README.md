@@ -2,10 +2,10 @@
 
 ### Technologies Used:
 
-*gulp
-*jquery
-*js
-*scss
+* gulp
+* jquery
+* js
+* scss
 
 ### Assignment
 
